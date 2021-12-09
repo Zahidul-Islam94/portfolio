@@ -18,3 +18,7 @@ Route::get('/', function () {
 });
 
 // hello laravel
+
+Route::get('/hi',function(){
+    return "Hi";
+});
